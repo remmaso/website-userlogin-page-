@@ -1,0 +1,27 @@
+{
+  "name": "passportapp",
+  "version": "1.0.0",
+  "description": "User authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Ralph Emmason",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "^5.3.1",
+    "mongoose": "*",
+    "nodemon": "^2.0.4",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
